@@ -18,11 +18,11 @@ This is my portfolio created with React.js. It contains an About, Portfolio, Con
 
 To clone the repo: <br>
 
-> git clone git@github.com:VaishaliQA/PWA_Text_Editor.git <br>
+> git clone git@github.com:VaishaliQA/React-Portfolio.git <br>
 > Run 'npm install' to install dependencies <br>
 > Run 'npm start' to run program <br>
 
-## Usage:
+## Screenshot:
 
 Here is screenshot of my application.
 
