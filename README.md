@@ -22,9 +22,12 @@ To clone the repo: <br>
 > Run 'npm install' to install dependencies <br>
 > Run 'npm start' to run program <br>
 
-## Usage:
+## Screenshot:
 
 Here is screenshot of my application.
+<img width="914" alt="Screenshot1" src="https://user-images.githubusercontent.com/54869821/204041718-e81760e8-6b13-4a57-93cb-3d87f4abd199.png">
+<img width="904" alt="Screenshot2" src="https://user-images.githubusercontent.com/54869821/204041731-7839e167-6b70-46aa-a814-2aa7e150738a.png">
+<img width="913" alt="Screenshot3" src="https://user-images.githubusercontent.com/54869821/204041746-3325a87a-bc14-4e20-8cb0-5e1752053c7d.png">
 
 ## Deployment:
 
