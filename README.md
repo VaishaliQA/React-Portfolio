@@ -1,4 +1,4 @@
-# Text Editor
+# React Portfolio
 
 ## Description:
 
