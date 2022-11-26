@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaBehanceSquare,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -19,6 +14,11 @@ function Footer() {
           <a href="https://www.linkedin.com" target="blank">
             <li>
               <FaLinkedin />
+            </li>
+          </a>
+          <a href="https://www.twitter.com" target="blank">
+            <li>
+              <FaTwitter />
             </li>
           </a>
           <a href="https://www.instagram.com" target="blank">
