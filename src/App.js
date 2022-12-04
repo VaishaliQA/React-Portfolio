@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
+// import components
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Portfolio from "./components/Project";
+import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 
@@ -17,6 +18,7 @@ class App extends Component {
         <div className="app">
           <Header />
           <main>
+            {/* Define routes to render different page components at different paths */}
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/about" element={<About />} />

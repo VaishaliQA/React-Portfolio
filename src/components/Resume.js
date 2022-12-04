@@ -1,5 +1,6 @@
 import React from "react";
 
+// Resume section
 function Resume() {
   return (
     <section>

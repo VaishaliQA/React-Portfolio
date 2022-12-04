@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NavBar from "./Navigation";
 
+// Header section
 function Header() {
   return (
     <header className="flex-row px-1">

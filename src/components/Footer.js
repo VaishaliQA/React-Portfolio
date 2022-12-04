@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
+// footer section
 function Footer() {
   return (
     <div className="footer-div">

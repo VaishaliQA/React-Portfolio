@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Portrait from "../assets/images/profile_pic.png";
 
+// Home section
 function Home() {
   return (
     <section className="home my-5">

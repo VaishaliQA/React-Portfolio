@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Navigation section
 function NavBar() {
   return (
     <nav className="navbar">

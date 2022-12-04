@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-
+// import helper class for validate email
 import { validateEmail } from "../utils/helper";
 
+// contact me section
 function Contact() {
+  // set state variables for object using `useState`
   const [formState, setFormState] = useState({
     name: "",
     email: "",
@@ -13,13 +15,21 @@ function Contact() {
   const { name, email, message } = formState;
 
   const handleSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
+    if (e.target.value === undefined) {
+      setErrorMessage("Field should not be blank");
+    } else {
+      // setErrorMessage("");
+    }
+    console.log("errorMsg", errorMessage);
     if (!errorMessage) {
       console.log("Submit Form", formState);
     }
   };
 
   const handleChange = (e) => {
+    // validate email address
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
@@ -27,19 +37,21 @@ function Contact() {
       } else {
         setErrorMessage("");
       }
-    } else {
+    }
+    // Check name and message is blank or not
+    else {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {
         setErrorMessage("");
       }
     }
+    console.log("errorMsg", errorMessage);
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
       console.log("Handle Form", formState);
     }
   };
-
   return (
     <section>
       <h1 data-testid="h1tag">Contact Me</h1>
