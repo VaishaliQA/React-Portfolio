@@ -32,7 +32,7 @@ Here is screenshot of my application.
 ## Deployment:
 
 Application deployment link is here.
-<a href="https://pwatexteditor-app.herokuapp.com/"> React Portfolio </a>
+<a href="https://vaishaliqa.github.io/React-Portfolio/"> React Portfolio </a>
 
 ## Test:
 
